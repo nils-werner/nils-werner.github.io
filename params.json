@@ -1,0 +1,6 @@
+{
+  "name": "Nils Werner",
+  "tagline": "",
+  "body": "### Bio\r\n\r\nI am a PhD student at the [International Audiolabs Erlangen](https://www.audiolabs-erlangen.de/).\r\n\r\n### Research\r\n\r\nMy research focus is audio processing and specifically [lapped transforms for audio coding](https://en.wikipedia.org/wiki/Lapped_transform).\r\n\r\n### Publications\r\n\r\n 1. Fabian-Robert Stöter, Nils Werner, Stefan Bayer and Bernd Edler  \r\n    **Refining Fundamental Frequency Estimates using Time Warping**\r\n    In Proc. European Signal Processing Conf. (EUSIPCO), 2015.\r\n\r\n### Other contributions\r\n\r\n - [Short Time Fourier Transform (STFT) in NumPy](https://github.com/audiolabs/stft)\r\n - [Modulated Discrete Cosine Transform (MDCT) in Python](https://github.com/audiolabs/mdct)\r\n - [Several small improvements to SciPy](https://github.com/scipy/scipy/blob/master/THANKS.txt#L121)\r\n - [Among top 4% of StackOverflow users](https://stackoverflow.com/users/636626/nils-werner)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
