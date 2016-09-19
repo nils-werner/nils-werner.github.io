@@ -243,3 +243,20 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+.socialicons {
+  text-align: center;
+  word-spacing: 3em;
+}
+
+.socialicons svg {
+  width: 30px;
+}
+
+.socialicons svg:not(:hover) path {
+  fill: #606c71;
+}
+
+.socialicons a {
+  text-decoration: none;
+}
