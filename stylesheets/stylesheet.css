@@ -260,3 +260,7 @@ a {
 .socialicons a {
   text-decoration: none;
 }
+
+ol li {
+  margin-bottom: 25px;
+}
