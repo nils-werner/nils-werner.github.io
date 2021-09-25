@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <title>Nils Werner, Ph.D., Postdoctoral Researcher</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
@@ -13,7 +16,7 @@
     <section class="page-header">
       <div class="page-header-box">
         <h1 class="project-name">Nils Werner, Ph.D.</h1>
-        <h2 class="project-tagline">Postdoctoral Researcher</h2>
+        <p class="project-tagline">Postdoctoral Researcher</p>
       </div>
     </section>
 
@@ -69,21 +72,31 @@
         </a>
       </p>
 
-      <h3>
+      <h2>
         <a id="bio" class="anchor" href="#bio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bio
-      </h3>
+      </h2>
 
-      <p>I am a Postdoctoral Researcher at <a href="https://www.audiolabs-erlangen.de/">International Audio Laboratories Erlangen</a>.</p>
+      <p>
+        <img src="profile.jpg" class="profile" />
+      </p>
 
-      <h3>
+      <p>
+        I am a Postdoctoral Researcher at <a href="https://www.audiolabs-erlangen.de/">International Audio Laboratories Erlangen</a>. My current research topic is audio signal processing and machine learning in the Internet-of-Things, using compressive sensing and deep neural networks.
+      </p>
+
+      <p>
+        I did my PhD at the same institute, supervised by <a href="https://www.audiolabs-erlangen.de/fau/professor/edler">Bernd Edler</a>. My topic was the development of a framework for designing non-uniform orthogonal lapped filterbanks for audio signal analysis and audio signal coding.
+      </p>
+
+      <h2>
         <a id="research" class="anchor" href="#research" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Research Interests
-      </h3>
+      </h2>
 
       <p>My research interests are audio signal processing and its intersection with <a href="https://en.wikipedia.org/wiki/Lapped_transform">lapped transforms</a>, <a href="https://de.wikipedia.org/wiki/Compressed_Sensing">compressive sensing</a>, and <a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a>.</p>
 
-      <h3>
+      <h2>
         <a id="publications" class="anchor" href="#publications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Publications
-      </h3>
+      </h2>
 
       <ol reversed="reversed">
         <li>Nils Werner<br />
@@ -142,34 +155,51 @@
         </li>
       </ol>
 
-      <h3>
-        <a id="other-contributions" class="anchor" href="#software" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software
-      </h3>
+      <h2>
+        <a id="software" class="anchor" href="#software" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Software Contributions
+      </h2>
 
-      <ul>
-        <li><a href="https://github.com/audiolabs/lapped-transforms/">Lapped Transforms Jupyter Notebook</a></li>
-        <li><a href="https://rir-generator.readthedocs.io/en/latest/">Room Impulse Response Generator</a></li>
-        <li><a href="https://github.com/nils-werner/zget">Filename based peer to peer file transfer</a></li>
-        <li><a href="https://github.com/nils-werner/stft">Short Time Fourier Transform (STFT) in NumPy</a></li>
-        <li><a href="https://github.com/nils-werner/mdct">Modulated Discrete Cosine Transform (MDCT) in NumPy</a></li>
-        <li><a href="https://github.com/nils-werner/pymushra">pyMUSHRA Listening Test Server</a></li>
-        <li><a href="https://github.com/pydata/sparse/pulls?utf8=%E2%9C%93&q=is%3Apr%20%20author%3Anils-werner%20">Contributed to pydata/sparse</a></li>
-        <li><a href="https://github.com/numpy/numpy/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Anils-werner%20">Contributed to NumPy</a></li>
-        <li><a href="https://github.com/scipy/scipy/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Anils-werner%20">Contributed to SciPy</a></li>
-        <li><a href="https://github.com/ipython/ipython/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Anils-werner%20">Contributed to IPython</a></li>
-        <li><a href="https://github.com/mnick/scikit-tensor/pulls?utf8=%E2%9C%93&q=is%3Apr%20%20author%3Anils-werner%20">Contributed to scikit-tensor</a></li>
-      </ul>
+      <h3 class="highlight"><a href="https://github.com/audiolabs/lapped-transforms/">Lapped Transforms Jupyter Notebook</a></h3>
+      <p>
+        Tutorial-style Jupyter Notebooks to provide an easy introduction into the notoriously difficult topic of lapped transforms.
+      </p>
+      <h3 class="highlight"><a href="https://rir-generator.readthedocs.io/en/latest/">Room Impulse Response Generator</a></h3>
+      <p>
+        A Python tool to generate room impulse responses for virtual rooms.
+      </p>
+      <h3 class="highlight"><a href="https://github.com/nils-werner/stft">Short Time Fourier Transform (STFT) in NumPy</a></h3>
+      <p>
+        A SciPy based implementation for spectrograms/STFTs. From the times when <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.spectrogram.html"><code>scipy.signal.spectrogram</code></a> did not exist.
+      </p>
+      <h3 class="highlight"><a href="https://github.com/nils-werner/mdct">Modulated Discrete Cosine Transform (MDCT) in NumPy</a></h3>
+      <p>
+        A fast SciPy based implementation of the modified discrete cosine transform.
+      </p>
 
-      <h3>
-        <a id="other-contributions" class="anchor" href="#other-contributions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other contributions
-      </h3>
+      <h3 class="highlight"><a href="https://github.com/nils-werner/pymushra">pyMUSHRA Listening Test Server</a></h3>
+      <p>
+        A Python based webserver for conducting webMUSHRA experiments, including a statistical analysis and visualization of the testresults.
+      </p>
+      <h3><a href="https://github.com/pydata/sparse/pulls?utf8=%E2%9C%93&q=is%3Apr%20%20author%3Anils-werner%20">Contributed to pydata/sparse</a></h3>
+      <h3><a href="https://github.com/numpy/numpy/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Anils-werner%20">Contributed to NumPy</a></h3>
+      <h3><a href="https://github.com/scipy/scipy/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Anils-werner%20">Contributed to SciPy</a></h3>
+      <h3><a href="https://github.com/ipython/ipython/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Anils-werner%20">Contributed to IPython</a></h3>
+      <h3><a href="https://github.com/mnick/scikit-tensor/pulls?utf8=%E2%9C%93&q=is%3Apr%20%20author%3Anils-werner%20">Contributed to scikit-tensor</a></h3>
 
-      <ul>
-        <li><a href="https://stackoverflow.com/users/636626/nils-werner">Among top 1% of all StackOverflow contributors</a></li>
-        <li><a href="https://youtu.be/gUPbysSt7XU?t=345">Interviewed on popular YouTube channel "Physics Girl"</a></li>
-        <li>Reviewer for the Journal of Open Source Software</li>
-        <li>Reviewer for the Web Audio Conference</li>
-      </ul>
+      <h2>
+        <a id="other-contributions" class="anchor" href="#other-contributions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other Contributions
+      </h2>
+
+      <h3 class="highlight"><a href="https://stackoverflow.com/users/636626/nils-werner">Top 30 StackOverflow contributor</a></h3>
+      <p>
+        I am among top 1% of all StackOverflow contributors, and among the top <strong>30 contributors for the <code>NumPy</code> tag</strong>.
+      </p>
+      <h3 class="highlight"><a href="https://youtu.be/gUPbysSt7XU?t=345">Interviewed on the very popular YouTube channel "Physics Girl"</a></h3>
+      <p>
+        Expert interview about the topic of data transmission on the internet. <strong>The channel has more than 2M subscribers.</strong>
+      </p>
+      <h3>Reviewer for the <a href="https://joss.theoj.org/">Journal of Open Source Software</a></h3>
+      <h3>Reviewer for the <a href="https://www.webaudioconf.com/">Web Audio Conference</a></h3>
     </section>
   </body>
 </html>

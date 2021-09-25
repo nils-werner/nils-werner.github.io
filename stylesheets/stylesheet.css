@@ -4,7 +4,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
@@ -117,8 +117,14 @@ a {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
+  font-weight: bold;
   color: #159957; }
+.main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  font-weight: normal;
+}
+.main-content h3.highlight, .main-content h4.highlight, .main-content h5.highlight, .main-content h6.highlight {
+  font-weight: 600;
+}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -269,4 +275,11 @@ a {
 
 ol li {
   margin-bottom: 25px;
+}
+
+.profile {
+  width: 150px;
+  margin: 10px;
+  border-radius: 50%;
+  float: left;
 }
