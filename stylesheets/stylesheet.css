@@ -303,4 +303,8 @@ ol li {
   .main-content code {
     color: #999;
     background-color: #222; }
+
+  .socialicons svg.github:hover path {
+    fill: #999999;
+  }
 }
