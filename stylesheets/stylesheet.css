@@ -268,6 +268,18 @@ a {
   width: 30px;
 }
 
+.socialicons .github path {
+  fill: #181717;
+}
+
+.socialicons .stackoverflow path {
+  fill: #FE7A16;
+}
+
+.socialicons .linkedin path {
+  fill: #0077B5;
+}
+
 .socialicons svg:not(:hover) path {
   fill: #606c71;
 }
@@ -304,7 +316,7 @@ ol li {
     color: #999;
     background-color: #222; }
 
-  .socialicons svg.github:hover path {
+  .socialicons .github path {
     fill: #999999;
   }
 }
