@@ -272,6 +272,10 @@ a {
   fill: #181717;
 }
 
+.socialicons .mastodon path {
+  fill: #6464ff;
+}
+
 .socialicons .stackoverflow path {
   fill: #FE7A16;
 }
